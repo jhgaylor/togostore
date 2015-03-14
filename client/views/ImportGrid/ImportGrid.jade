@@ -1,0 +1,7 @@
+template(name="ImportGrid")
+  h1 Select a grid to import to the world.
+  +each(grids)
+    p
+      | {{name}}
+      input(type="radio", name="grids", value="{{_id}}")
+    

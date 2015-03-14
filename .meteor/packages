@@ -1,0 +1,24 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+coffeescript
+accounts-base
+accounts-password
+less
+grove:stripe-checkout
+twbs:bootstrap
+ian:accounts-ui-bootstrap-3
+mquandalle:jade
+alanning:roles
+iron:router
+cfs:standard-packages
+cfs:gridfs
+numeral:numeral
+hitchcott:ez-modal
+aldeed:collection2
+email
+grove:stripe-npm

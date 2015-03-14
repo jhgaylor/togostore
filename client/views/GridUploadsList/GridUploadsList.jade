@@ -1,0 +1,5 @@
+template(name="GridUploadsList")
+  +each(gridUploads)
+    li
+      | #{this.name} #{this.formattedSize}
+      span.glyphicon.glyphicon-remove.removeUpload

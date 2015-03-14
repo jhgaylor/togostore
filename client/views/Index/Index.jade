@@ -1,0 +1,26 @@
+template(name="Index")
+  +Navbar
+  
+  +if(currentUser)
+    .row
+      .col-sm-3
+        +GridUploadController
+        
+        +GridUploadsList
+
+      .col-sm-9
+        .row
+          .col-sm-12
+            h1 You have #{numberOfCoins}T
+
+        .row
+          .col-sm-12
+            .btn.btn-primary.importGrid Import Grid
+
+            h1 - OR -
+            .btn.btn-primary.buyPoints Get More T
+              span.glyphicon.glyphicon-usd
+  else
+    .row
+      .col-sm-12
+        h1 Please Login
